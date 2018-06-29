@@ -17,4 +17,9 @@ def Descending_Order(num):
         ordered += number
     return int(ordered)
 
+def one_line(num):
+    return int("".join(sorted(list(str(num)), reverse=True)))
+
 print Descending_Order(145263)
+print one_line(145263)
+print "".join(['1','2','3'])
