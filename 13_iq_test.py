@@ -11,6 +11,10 @@
 def iq_test(numbers):
     # use modulo for checking
     x = [int(no) % 2 for no in numbers.split()]
+<<<<<<< HEAD
+=======
+    print x
+>>>>>>> 9dff57ad4ac0dc2ceededf65fd66f5dbeb561d97
     even = x.index(0) + 1
     odd = x.index(1) + 1
     # remove one from each so only general evenness left
