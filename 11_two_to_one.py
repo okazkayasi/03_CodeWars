@@ -10,7 +10,6 @@ def longest(s1, s2):
     list2 = sorted(list(s2))
     list3 = []
 
-
     while len(list1) > 0 or len(list2) > 0:
         if len(list1) > 0 and len(list2) == 0:
             choose = list1[0]
@@ -27,7 +26,7 @@ def longest(s1, s2):
     return "".join(list3)
 
 def new_one(s1,s2):
-    print list(s1).extend(list(s2))
+
     the_list = list(s1)
     the_list.extend(list(s2))
     return "".join(sorted(list(set(the_list))))

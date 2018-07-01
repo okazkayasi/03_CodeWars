@@ -40,5 +40,3 @@ print no_fucking_way(2) #8
 print no_fucking_way(13) # 2197
 print no_fucking_way(19) #6859
 print no_fucking_way(41) #68921
-
-print range(1,10,2)
