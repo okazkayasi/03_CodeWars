@@ -14,7 +14,11 @@ def iq_test(numbers):
 <<<<<<< HEAD
 =======
     print x
+<<<<<<< HEAD
 >>>>>>> 9dff57a... some more Kata added
+=======
+>>>>>>> 9dff57ad4ac0dc2ceededf65fd66f5dbeb561d97
+>>>>>>> 938cc85679bf02fefd1b12cf30f89d4f233f1e1c
     even = x.index(0) + 1
     odd = x.index(1) + 1
     # remove one from each so only general evenness left
