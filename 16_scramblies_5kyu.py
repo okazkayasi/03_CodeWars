@@ -48,5 +48,3 @@ def scramble4(s1, s2):
 
 print scramble2('katas', 'steak')
 print scramble2('rkqodlw', 'world')
-a = "qwe"
-print 'q' in a
